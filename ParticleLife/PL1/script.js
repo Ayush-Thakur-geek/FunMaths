@@ -7,7 +7,7 @@ const frictionHalfLife = 0.04;
 const rMax = 0.1;
 const m = 6;
 const matrix = makeRandomMatrix();
-const forceFactor = 100;
+const forceFactor = 20;
 
 const frictionFactor = Math.pow(0.5, dt / frictionHalfLife);
 
